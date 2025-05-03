@@ -1,0 +1,34 @@
+.photo-gallery {
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .photo-gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #003366;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .gallery-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .gallery-item img {
+    transition: opacity 0.3s ease;
+  }
+  
+  
