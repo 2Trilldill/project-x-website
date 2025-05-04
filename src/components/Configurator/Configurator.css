@@ -1,0 +1,15 @@
+.configurator-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .configurator-form label {
+    margin-bottom: 10px;
+  }
+  
+  .configurator-form button {
+    margin-top: 20px;
+  }
+  
