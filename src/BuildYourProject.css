@@ -1,0 +1,42 @@
+/* src/BuildYourProject.css */
+.build-your-project {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.build-your-project h2 {
+  text-align: center;
+}
+
+.build-your-project form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.build-your-project form input,
+.build-your-project form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.build-your-project button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.build-your-project button:hover {
+  background-color: #218838;
+}

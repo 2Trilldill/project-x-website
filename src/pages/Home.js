@@ -24,13 +24,18 @@ function Home() {
           color: 'white',
         }}
       >
-        <div className="hero-content" style={{
-          backgroundColor: 'rgba(0, 0, 0, 0.5)',
-          padding: '2rem',
-          borderRadius: '10px'
-        }}>
-          <h1>Building the Future, Restoring the Past</h1>
-          <p>Licensed. Insured. Trusted for over 5 years.</p>
+        <div className="content-section">
+          <div
+            className="hero-content"
+            style={{
+              backgroundColor: 'rgba(0, 0, 0, 0.5)',
+              padding: '2rem',
+              borderRadius: '10px',
+            }}
+          >
+            <h1>Building the Future, Restoring the Past</h1>
+            <p>Licensed. Insured. Trusted for over 5 years.</p>
+          </div>
         </div>
       </motion.section>
 
@@ -42,15 +47,18 @@ function Home() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2>Why Choose Project X LLC?</h2>
-        <p>
-          Project X LLC is a construction company based on quality, safety, and reliability. We offer full-service
-          general contracting, project management, and construction expertise to bring your vision to life.
-        </p>
+        <div className="content-section">
+          <h2>Why Choose Project X LLC?</h2>
+          <p>
+            Project X LLC is a construction company based on quality, safety, and reliability. We offer full-service
+            general contracting, project management, and construction expertise to bring your vision to life.
+          </p>
+        </div>
       </motion.section>
 
       {/* Photo Gallery Section */}
       <motion.div
+        className="content-section"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
