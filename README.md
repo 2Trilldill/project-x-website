@@ -24,20 +24,6 @@ This project showcases the services, story, and contact information for Project 
 - Fully responsive layout across devices
 - Optimized images and performance enhancements
 
-## 📁 Project Structure
-
-projectx-website/
-├── public/ # Static assets (logo, hero images)
-├── src/
-│ ├── app/ # Pages using Next.js App Router
-│ │ ├── page.tsx # Home page
-│ │ ├── about/ # About page
-│ │ ├── services/ # Services page
-│ │ └── contact/ # Contact page
-│ ├── components/ # Shared UI components
-│ └── styles/ # Global Tailwind styles
-└── tailwind.config.js # Theme and utility configuration
-
 ## 🧪 Getting Started
 
 ```bash
